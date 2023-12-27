@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import './App.css'
 import { Navbar, Sidebar } from './components'
+import { useStateContext } from './hooks/useStateContext'
 import {
 	Area,
 	Bar,
@@ -24,7 +25,7 @@ import {
 } from './pages'
 
 const App = () => {
-	const activeMenu = true
+	const { activeMenu } = useStateContext()
 
 	return (
 		<div className='mt-16'>
