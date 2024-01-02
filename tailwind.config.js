@@ -40,7 +40,7 @@ export default {
 				590: '590px',
 			},
 			backgroundImage: {
-				'hero-pattern': "url('https://i.ibb.co/R64mWTW/Project-16-13.jpg')",
+				'hero-pattern': "url('https://i.ibb.co/C0nkF9K/preview.jpg')",
 			},
 		},
 	},
