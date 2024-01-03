@@ -29,7 +29,7 @@ const SparkLine = ({
 	return (
 		<SparklineComponent
 			id={id}
-			height={height as string}
+			height={height}
 			width={width}
 			lineWidth={1}
 			valueType='Numeric'
